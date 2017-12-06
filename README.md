@@ -20,7 +20,8 @@ _A pig-latin website, that translates text in pig latin. Made as an assignment f
 | words beginning with qu | quilt | iltquay |
 | words beginning with qu, but qu doesn't come first | squeal | ealsqay |
 | words beginning with y | yes | esyay |
-| sentence with multiple words | Pig Latin translator | igPay atinLay anslatorTray |
+| sentence with multiple words | pig latin translator | igpay atinlay anslatortray |
+| sentence with capital letters | Pig Latin Translator | igPay atinLay anslatorTray |
 
 ## Setup
 
