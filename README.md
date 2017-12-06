@@ -22,7 +22,7 @@ _A pig-latin website, that translates text in pig latin. Made as an assignment f
 | words beginning with y | yes | esyay |
 | sentence with multiple words | pig latin translator | igpay atinlay anslatortray |
 | sentence with capital letters | Pig Latin Translator | igPay atinLay anslatorTray |
-
+| sentence with punctuation | Pig! Latin! Translator! | igPay! atinLay! anslatorTray! |
 ## Setup
 
 * _clone repository_
