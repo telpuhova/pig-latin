@@ -14,7 +14,10 @@ var translateToPigLatin = function (sentence) {
       pigLatinArray.splice(0,1);
     }
 
-    if (words[j].length === 1) { //check if sentence is one letter word
+    if (words[j].match(/[0-9]/)) {
+      result = words[j];
+    }
+    else if (words[j].length === 1) { //check if sentence is one letter word
       result = (words[j] + "way"); // if above is true: execute; and leave the func
     }
     //if above is false; it goes to the next "else if"

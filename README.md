@@ -23,6 +23,8 @@ _A pig-latin website, that translates text in pig latin. Made as an assignment f
 | sentence with multiple words | pig latin translator | igpay atinlay anslatortray |
 | sentence with capital letters | Pig Latin Translator | igPay atinLay anslatorTray |
 | sentence with punctuation | Pig! Latin! Translator! | igPay! atinLay! anslatorTray! |
+| words with numbers | $5 | $5 |
+
 ## Setup
 
 * _clone repository_
