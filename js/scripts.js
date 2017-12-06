@@ -17,6 +17,14 @@ var translateToPigLatin = function (sentence) {
     else if ((pigLatinArray[0] === "a") || (pigLatinArray[0] === "e") || (pigLatinArray[0] === "i") || (pigLatinArray[0] === "o") || (pigLatinArray[0] === "u")) {
       return (sentence + "way"); // if above is true: execute and leave the func
     }
+    else if ((pigLatinArray[0] === "q") || (pigLatinArray[1] === "u")) {
+      var result = ""
+      for (var i = 2; i < pigLatinArray.length; i += 1) {
+        result += pigLatinArray[i]
+      }
+      result += pigLatinArray[0] + pigLatinArray[1] + "ay"
+      return result;
+    }
     // if above is false: go to next "else if"
     //we check if the SECOND letter (pigLatinArray[1]) is a vowel
     else if ((pigLatinArray[1] === "a") || (pigLatinArray[1] === "e") || (pigLatinArray[1] === "i") || (pigLatinArray[1] === "o") || (pigLatinArray[1] === "u")){
