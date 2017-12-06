@@ -4,8 +4,10 @@ var translateToPigLatin = function (sentence) {
     var regex = /[^a-z]/;
     if (sentence.match(regex)) {
       return sentence;
-    } else {
+    } else if (sentence.length === 1) {
       return (sentence + "ay");
+    } else {
+      return (sentence + "way");
     }
 
 }
