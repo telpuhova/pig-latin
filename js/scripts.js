@@ -1,3 +1,4 @@
+//Back End
 var translateToPigLatin = function (sentence) {
   sentence=sentence.trim();
   var finalResult = "";
@@ -7,21 +8,12 @@ var translateToPigLatin = function (sentence) {
 
     var pigLatinArray = words[j].split("");
 
-    var vowels = ["a", "e", "i", "o", "u"];
-
-    //
-    // var regex = /[^a-z, A-Z]/;
-    // if (words[j].match(regex)) {
-    //   result += sentence;
-    // }
-
     var tmpPrev = "";
     if (pigLatinArray[0].match(/[(\"\[{\'@]/)) {
       tmpPrev = pigLatinArray[0];
       pigLatinArray.splice(0,1);
     }
 
-    // debugger;
     if (words[j].length === 1) { //check if sentence is one letter word
       result = (words[j] + "way"); // if above is true: execute; and leave the func
     }
@@ -80,7 +72,6 @@ var translateToPigLatin = function (sentence) {
         }
       }
       result += pigLatinArray[0] + pigLatinArray[1] + pigLatinArray[2] + "ay"+ tmp;
-
     }
 
     else if (pigLatinArray[2].match(/[a,e,i,o,u,A,E,I,O,U]/)) {
@@ -112,14 +103,9 @@ var translateToPigLatin = function (sentence) {
     finalResult += tmpPrev + result + " ";
 
   }
-
   return finalResult;
 
-
-
-
 }
-
 
 //Front End
 $(document).ready(function() {
