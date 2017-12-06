@@ -1,12 +1,14 @@
 var translateToPigLatin = function (sentence) {
     // var pigLatinArray = sentence.split("");
-    if (sentence !== /[^a-z]/) {
+
+    var regex = /[^a-z]/;
+    if (sentence.match(regex)) {
       return sentence;
+    } else {
+      return (sentence + "ay");
     }
 
 }
-
-
 
 
 //Front End
