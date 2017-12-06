@@ -14,7 +14,7 @@ _A pig-latin website, that translates text in pig latin. Made as an assignment f
 | non-alphabetical | 3| 3 |
 | single-letter words beginning with a vowel | i | iay |
 | words beginning with a vowel | order | orderway |
-| words beginning with one consonant | bye | yebay |
+| words beginning with one consonant | cat | atcay |
 | words beginning with two consonants | great | eatgray |
 | words beginning with three consonants | three | eethray |
 | words beginning with qu | quilt | iltquay |
