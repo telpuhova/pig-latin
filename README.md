@@ -6,10 +6,10 @@
 
 ## Description
 
-_A pig-latin website, that translates text in pig latin. Made as an assignment for a coding school_
+_A pig-latin website, that translates text in pig latin._
 
 ### Specs
-| Spec | Input | Output |
+| Behaviour | Input | Output |
 | :-------------     | :------------- | :------------- |
 | non-alphabetical | 3| 3 |
 | single-letter words beginning with a vowel | i | iay |
