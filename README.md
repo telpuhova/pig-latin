@@ -1,12 +1,12 @@
-# _Pig latin_
+# Pig latin
 
-#### _pig latin website, 12/6/2017_
+pig latin website, 12/6/2017
 
-#### By _**telpuhova & katetrahan**_
+**By telpuhova & katetrahan**
 
 ## Description
 
-_A pig-latin website, that translates text in pig latin._
+A pig-latin website, that translates text in pig latin.
 
 ### Specs
 | Behaviour | Input | Output |
@@ -27,11 +27,11 @@ _A pig-latin website, that translates text in pig latin._
 
 ## Setup
 
-* _clone repository_
-* _open index.html in browser_
+* clone repository
+* open index.html in browser
 
 ## Technologies Used
 
-_HTML, CSS, JS, Bootstrap, jquery_
+HTML, CSS, JS, Bootstrap, jquery
 
-Copyright (c) 2017 **_telpuhova & katetrahan_**
+Copyright (c) 2017 telpuhova & katetrahan
